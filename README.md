@@ -137,8 +137,8 @@ I created a function called transformation where I perform matrix multiplication
 
 Before applying any transformation, one transformation matrix was given which need to be applied in lincoln image.
 Result are given below:
-<img src="https://github.iu.edu/cs-b657-sp2022/khusingh-dichalla-raubale-a2/blob/main/part2-images/lincoln.jpg"/> 
-<img src="https://github.iu.edu/cs-b657-sp2022/khusingh-dichalla-raubale-a2/blob/main/part2-images/lin_output.jpg"/> 
+<img src="./part2-images/lincoln.jpg"/> 
+<img src="./part2-images/lin_output.jpg"/> 
 
 ## For n=1 (Translation Transformation)
 ## A translation slides an object a fixed distance in a given direction.  The original object and its translation have the same shape and size, and they face in the same direction.  It is a direct isometry.
@@ -149,9 +149,9 @@ transformation matrix =[1 0 tx <br />
  			0 0 1] <br />
 
  
-<img src="https://github.iu.edu/cs-b657-sp2022/khusingh-dichalla-raubale-a2/blob/main/part2-images/book1.jpg"/> 
-<img src="https://github.iu.edu/cs-b657-sp2022/khusingh-dichalla-raubale-a2/blob/main/part2-images/book2.jpg"/> 
-<img src="https://github.iu.edu/cs-b657-sp2022/khusingh-dichalla-raubale-a2/blob/main/part2-images/trans_output.jpg"/>
+<img src="./part2-images/book1.jpg"/> 
+<img src="./book2.jpg"/> 
+<img src="./part2-images/trans_output.jpg"/>
 
 Ref:https://www.onlinemath4all.com/translation-transformation-matrix.html
  
@@ -162,9 +162,9 @@ transformation matrix = [[cos, -sin, tx], <br />
 	     		[0, 0, 1]] <br />
 
 
- <img src="https://github.iu.edu/cs-b657-sp2022/khusingh-dichalla-raubale-a2/blob/main/part2-images/book1.jpg"/>
- <img src="https://github.iu.edu/cs-b657-sp2022/khusingh-dichalla-raubale-a2/blob/main/part2-images/book2.jpg"/>
- <img src="https://github.iu.edu/cs-b657-sp2022/khusingh-dichalla-raubale-a2/blob/main/part2-images/euc_output.jpg"/>
+ <img src="./part2-images/book1.jpg"/>
+ <img src="./part2-images/book2.jpg"/>
+ <img src="./part2-images/euc_output.jpg"/>
 
 ## For n=3 (Affine Transformation)
 ## Affine transformations are combinations of linear transformations (rotation, scaling, shear, mirror) and translations
@@ -177,9 +177,9 @@ transformation matrix =[[x1’, y1’, 1],    <br />
 			[x2, y2, 1],      <br />
 			[x3, y3, 1]]^ (-1)<br />
 
- <img src="https://github.iu.edu/cs-b657-sp2022/khusingh-dichalla-raubale-a2/blob/main/part2-images/book1.jpg"/>
- <img src="https://github.iu.edu/cs-b657-sp2022/khusingh-dichalla-raubale-a2/blob/main/part2-images/book2.jpg"/>
- <img src="https://github.iu.edu/cs-b657-sp2022/khusingh-dichalla-raubale-a2/blob/main/part2-images/affine_output.jpg"/>			
+ <img src="/..part2-images/book1.jpg"/>
+ <img src="../part2-images/book2.jpg"/>
+ <img src="../part2-images/affine_output.jpg"/>			
 
 ## For n=4 (Projective Transformation)
 ## Projective transformations are combinations of affine transformations and projective warps
@@ -193,9 +193,9 @@ transformation matrix =[[[x1, y1, 1, 0, 0, 0, -(x1 * x1'), -(y1 * x1')], <br />
 		   [0, 0, 0, x4, y4, 1, -(x4 * y4']), -(y4 * y4')]] <br />
 		   
 
- <img src="https://github.iu.edu/cs-b657-sp2022/khusingh-dichalla-raubale-a2/blob/main/part2-images/book1.jpg"/>
- <img src="https://github.iu.edu/cs-b657-sp2022/khusingh-dichalla-raubale-a2/blob/main/part2-images/book2.jpg"/>
- <img src="https://github.iu.edu/cs-b657-sp2022/khusingh-dichalla-raubale-a2/blob/main/part2-images/projective_output.jpg"/>		   
+ <img src="./part2-images/book1.jpg"/>
+ <img src="./part2-images/book2.jpg"/>
+ <img src="./part2-images/projective_output.jpg"/>		   
 
 Future Improvement: Rather than formula using formula for bilinear interpolation, we can use convolution to perform interpolation
 									[
